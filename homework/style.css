@@ -8,7 +8,7 @@
 }
 .br {
     white-space: pre-line;
-    text-overflow: ellipsis;
+    text-overflow: clip;
 }
 .rx-amd {
     color: red;
