@@ -11,7 +11,7 @@
 }
 .body {
     background-position: 90%;
-    background-image: url(https://www.asashi.com.my/webshaper/pcm/pictures/Sub%20Product/Motherboard-2.jpg);
+    background-image: url(https://www.asashi.com.my/webshaper/pcm/pictures/Sub%20Product/Motherboard-2.jpg) no-repeat;
     color: black;
     
 }
