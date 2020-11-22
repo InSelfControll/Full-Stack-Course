@@ -1,3 +1,16 @@
+.h1-CPUs {
+    color: chocolate;
+    text-align: center;
+    font-size: 2rem;
+    font-family: sans-serif;
+    font: outline;
+    margin-left: auto;
+}
+.h1-GPUS {
+    color: chartreuse;
+    text-align: center;
+    font-size: 2rem;
+}
 .body {
     background-position: 90%;
     background-image: url(https://www.ocbase.com/user/pages/01.home/_features/CPU-Processor.png);
