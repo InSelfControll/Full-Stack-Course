@@ -19,13 +19,14 @@
 }
 .p1 {
     /*color:purple;*/
-    margin-right: auto;
-    margin-left: 10% auto;
-    font-size: 19px;
+    /*margin-right: auto;*/
+    /*margin-left: 10% auto;*/
     /*text-size-adjust: 60%;*/
     /*text-rendering: auto;*/
     /*text-justify: auto;*/
     /*white-space: pre-line;*/
+
+    font-size: 18px;
     grid-auto-columns: auto;
     text-align: center;
     font-family: sans-serif;
