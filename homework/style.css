@@ -6,6 +6,14 @@
     image-rendering: -webkit-optimize-contrast auto;
 
 }
+.mbody {
+    background-position: 90%;
+    background-color: violet;
+    background-size: cover;
+    background-attachment: fixed;
+    image-rendering: -webkit-optimize-contrast auto;
+
+}
 .br {
     white-space: pre-line;
     text-overflow: clip;
