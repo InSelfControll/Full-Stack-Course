@@ -10,7 +10,7 @@
 .rx-amd {
     color: red;
     margin-right: auto;
-    font-size: 18px;
+    font-size: 25px;
     /*white-space: pre-line;*/
     font: outline;
     font-family: sans-serif;
@@ -25,7 +25,7 @@
     /*text-justify: auto;*/
     /*white-space: pre-line;*/
 
-    font-size: 18px;
+    font-size: 25px;
     grid-auto-columns: auto;
     text-align: center;
     font-family: sans-serif;
