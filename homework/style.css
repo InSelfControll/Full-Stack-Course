@@ -1,4 +1,13 @@
 .p {
     color: red;
     margin-right: auto;
+    font-size: 25px;
+}
+.p1 {
+    color:blue;
+    margin-right: auto;
+    font-size: 25px;
+}
+.body {
+    background-position: 90%;
 }
