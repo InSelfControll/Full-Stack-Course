@@ -23,7 +23,7 @@
     text-size-adjust: 60%;
     text-rendering: auto;
     text-justify: auto;
-    white-space: pre-line;
+    /*white-space: pre-line;*/
     grid-auto-columns: auto;
-    text-emphasis-color: blue;
+    text-decoration-color: violet;
 }
