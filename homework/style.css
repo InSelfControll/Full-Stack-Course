@@ -8,6 +8,7 @@
     color:white;
     margin-right: auto;
     font-size: 15px;
+    text-size-adjust: 2em auto;
 }
 .body {
     background-position: 90%;
