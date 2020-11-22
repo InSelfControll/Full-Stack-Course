@@ -21,10 +21,10 @@
     /*color:purple;*/
     margin-right: auto;
     margin-left: 10% auto;
-    font-size: 15px;
-    text-size-adjust: 60%;
-    text-rendering: auto;
-    text-justify: auto;
+    font-size: 19px;
+    /*text-size-adjust: 60%;*/
+    /*text-rendering: auto;*/
+    /*text-justify: auto;*/
     /*white-space: pre-line;*/
     grid-auto-columns: auto;
     text-align: center;
