@@ -43,6 +43,13 @@
     font: outline;
     color: red;
 }
+
+.c-links,
+.br,
+.custom {
+    text-align: center;
+    margin: 0em auto;
+}
 .c-links {
     font-size: 20px;
     grid-auto-columns: auto;
