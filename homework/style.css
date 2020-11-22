@@ -20,4 +20,6 @@
     margin-right: auto;
     font-size: 15px;
     text-size-adjust: 60%;
+    text-rendering: auto;
+    text-justify: auto;
 }
