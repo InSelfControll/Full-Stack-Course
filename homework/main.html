@@ -15,15 +15,9 @@
     <p class="br">Subjects </p>
     <p> 1. GPUs</p>
     <p> 2. CPUs</p>
-    <form action="index.html#GPUs" method="GET">
-        <label for="GPUs">1</label>
-        <input type="text" id="GPUs" name="1" required>
-        <input type="submit" value="Submit">
-    </form>
-    <form action="index.html#CPUs" method="GET">
-        <label for="CPUs">2</label>
-        <input type="text" id="CPUs" name="2" required>
-        <input type="submit" value="Submit">
+    <form class="form">
+        <input type="number" name="gpus" required placeholder="Number of GPUs">
+        <button type="submit">Submit</button>
     </form>
     <a href="index.html">
         <iconify-icon data-icon="clarity:home-solid"></iconify-icon>
@@ -32,6 +26,7 @@
         <iconify-icon data-icon="fa-envelope-o"></iconify-icon>
     </a>
 
+    <script src="ui.js"></script>
 </body>
 
 </html>
