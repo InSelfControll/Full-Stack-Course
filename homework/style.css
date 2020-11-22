@@ -12,11 +12,9 @@
 .body {
     background-position: 90%;
     background-image: url(https://www.ocbase.com/user/pages/01.home/_features/CPU-Processor.png);
-    background-repeat: no-repeat;
+    /*background-repeat: no-repeat;*/
     background-size: cover;
-    -webkit-background-size: cover;
     -moz-background-size: cover;
-    -o-background-size: cover;
     background-attachment: fixed;
     image-rendering: -webkit-optimize-contrast;
 
