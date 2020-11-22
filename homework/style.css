@@ -6,6 +6,10 @@
     image-rendering: -webkit-optimize-contrast auto;
 
 }
+.br {
+    white-space: pre-line;
+    text-overflow: ellipsis;
+}
 .rx-amd {
     color: red;
     margin-right: auto;
