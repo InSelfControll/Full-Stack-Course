@@ -1,7 +1,6 @@
 .body {
     background-position: 90%;
     background-image: url(https://www.ocbase.com/user/pages/01.home/_features/CPU-Processor.png);
-    /*background-repeat: no-repeat;*/
     background-size: cover;
     background-attachment: fixed;
     image-rendering: -webkit-optimize-contrast auto;
@@ -11,20 +10,11 @@
     color: red;
     margin-right: auto;
     font-size: 25px;
-    /*white-space: pre-line;*/
     font: outline;
     font-family: sans-serif;
     text-align: center;
 }
 .nv-intel {
-    /*color:purple;*/
-    /*margin-right: auto;*/
-    /*margin-left: 10% auto;*/
-    /*text-size-adjust: 60%;*/
-    /*text-rendering: auto;*/
-    /*text-justify: auto;*/
-    /*white-space: pre-line;*/
-
     font-size: 18px;
     grid-auto-columns: auto;
     text-align: center;
