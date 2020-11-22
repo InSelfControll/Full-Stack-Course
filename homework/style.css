@@ -16,7 +16,7 @@
     /*white-space: pre-line;*/
 }
 .p1 {
-    color:white;
+    color:purple;
     margin-right: auto;
     margin-left: 10% auto;
     font-size: 15px;
@@ -26,4 +26,5 @@
     /*white-space: pre-line;*/
     grid-auto-columns: auto;
     text-decoration-color: violet;
+    text-align: center;
 }
