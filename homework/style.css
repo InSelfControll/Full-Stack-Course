@@ -1,7 +1,8 @@
 .p {
     color: red;
     margin-right: auto;
-    font-size: 25px;
+    font-size: 18px;
+    white-space: pre-line;
 }
 .p1 {
     color:blue;
@@ -10,4 +11,7 @@
 }
 .body {
     background-position: 90%;
+    background-position: 500px;
+    background-image: url(https://www.asashi.com.my/webshaper/pcm/pictures/Sub%20Product/Motherboard-2.jpg);
+
 }
