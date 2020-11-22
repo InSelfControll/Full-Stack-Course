@@ -43,3 +43,11 @@
     font: outline;
     color: red;
 }
+.c-links {
+    font-size: 20px;
+    grid-auto-columns: auto;
+    text-align: center;
+    font-family: sans-serif;
+    font: outline;
+    color:violet;
+}
