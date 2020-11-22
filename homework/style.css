@@ -14,9 +14,11 @@
     margin-right: auto;
     font-size: 18px;
     /*white-space: pre-line;*/
+    font: outline;
+    font-family: sans-serif;
 }
 .p1 {
-    color:purple;
+    /*color:purple;*/
     margin-right: auto;
     margin-left: 10% auto;
     font-size: 15px;
@@ -25,6 +27,6 @@
     text-justify: auto;
     /*white-space: pre-line;*/
     grid-auto-columns: auto;
-    text-decoration-color: violet;
     text-align: center;
+    font-family: sans-serif;
 }
