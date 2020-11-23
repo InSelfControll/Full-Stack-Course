@@ -1,8 +1,13 @@
 const app = require("express")();
 
-app.use(require("body-parser")());
+app.use(require("connect-history-api-fallback")());
 
-app.post("/api/add-to-db", (req, res) => {
-  const { name } = req.body;
-  console.log(name);
+app.get("/*", (req, res) => {
+  res.sendFile(__dirname + req.path);
 })
+
+const PORT = process.env.PORT || 8080;
+
+app.listen(PORT, () => {
+  console.log("Listening on port", PORT);
+});
