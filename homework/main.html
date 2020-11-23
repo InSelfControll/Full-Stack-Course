@@ -12,13 +12,29 @@
 
 <body class="custom">
     <p>What do you want to read?</p>
-    <form class="form" method="GET">
+    <form class="form" action="/">
         <option id="gpu">1. GPU </option>
         <option id="cpu">2. CPU </option>
         <input type="number" name="options" required>
-        <input type="button" onclick="location.href='/#options';" value="Submit" />
+        <button type="submit" onclick="ss()">Submit</button>
         
     </form>
+
+    <script type="text/javascript">
+        function ss () {
+            document.getElementById("options").onclick;
+            var link = document.getElementById("options");
+            link.setAttribute("href", "#cpu");
+            return false;
+        }
+    </script>
+    <script>
+        function cc() {
+            var result = document.getElementById("options").value;
+            document.getElementById("result").innerHTML = result;
+            document.getElementById("options").href = "https://hm1.bhop-il.net/#" + result;
+        }		
+    </script>
 
     <a href="index.html">
         <iconify-icon data-icon="clarity:home-solid"></iconify-icon>
