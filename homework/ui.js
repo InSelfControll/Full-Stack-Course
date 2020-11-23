@@ -1,15 +1,15 @@
 "use strict";
 
 const elGpus = document.querySelectorAll(".amd-gpus");
-const elCpus = document.querySelectorAll(".cpus");
+const elCpus = document.querySelectorAll(".amd-cpus");
 
 function init() {
-  if (!location.pathname.startsWith("/gpu") || !location.pathname.startsWith("/cpu")) {
+  if (!location.pathname.startsWith("/gpu") && !location.pathname.startsWith("/cpu")) {
     return ;
   }
 
-  const id = location.pathname.split("/").pop() - 1;
-  if (!isNaN(id) && !elGpus[id] || !isNaN[id] && !elCpus[id]) {
+  const id = location.pathname.split("/Subjects").pop() - 1;
+  if (!isNaN(id) && !elGpus[id] && !isNaN[id] && !elCpus[id]) {
     return alert("Incorrect option");
   }
 
@@ -17,7 +17,7 @@ function init() {
   scroll(0, top)
 
   const bottom = elCpus[id].getBoundingClientRect().bottom;
-  scroll(1, bottom)
+  scroll(0, bottom)
 }
 
 

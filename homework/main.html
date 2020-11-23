@@ -15,18 +15,31 @@
     <p class="br">Subjects </p>
     <p> 1. GPUs</p>
     <p> 2. CPUs</p>
-    <form class="form">
-        <input urlChange() type="number" required placeholder="Option number">
-        <button type="submit" urlChange()>Submit</button>
+    <form class="form cpu gpus" action="/">
+        <input type="number" name="Subjects" required>
+        <button type="submit" >Submit</button>
     </form>
-    <script>
-        function urlChange() {
-            location.hash = "#gpu";
-            var x = "The anchor part is now: " + location.hash;
-            document.getElementById("gpu").innerHTML = x;
-        }
-    </script>
 
+    <script type="text/javascript">
+
+        // Original JavaScript code by Chirp Internet: www.chirp.com.au
+        // Please acknowledge use of this code by including this header.
+
+        window.addEventListener("DOMContentLoaded", function (e) {
+            var links = document.getElementsByTagName(".cpu");
+            for (var i = 0; i < links.length; i++) {
+                if (!links[i].hash) continue;
+                if (links[i].origin + links[i].pathname != self.location.href) continue;
+                (function (anchorPoint) {
+                    links[i].addEventListener("click", function (e) {
+                        anchorPoint.scrollIntoView(true);
+                        e.preventDefault();
+                    }, false);
+                })(document.getElementById(links[i].hash.replace("#", "/cpu")));
+            }
+        }, false);
+
+    </script>
     <a href="index.html">
         <iconify-icon data-icon="clarity:home-solid"></iconify-icon>
     </a>
@@ -34,7 +47,6 @@
         <iconify-icon data-icon="fa-envelope-o"></iconify-icon>
     </a>
 
-    <script src="ui.js"></script>
 </body>
 
 </html>
