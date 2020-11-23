@@ -1,3 +1,11 @@
+.body {
+    background-position: 90%;
+    background-size: cover;
+    background-attachment: fixed;
+    image-rendering: -webkit-optimize-contrast auto;
+    font-family: Arial, Helvetica, sans-serif
+}
+
 .cpus {
     color: chocolate;
     text-align: center;
@@ -6,18 +14,12 @@
     font: outline;
     margin-left: auto;
 }
-.gpus {
+.gpus-header {
     color: rgb(90, 145, 36);
     text-align: center;
     font-size: 2rem;
 }
-.body {
-    background-position: 90%;
-    background-size: cover;
-    background-attachment: fixed;
-    image-rendering: -webkit-optimize-contrast auto;
 
-}
 .mbody {
     background-position: 90%;
     background-color: violet;
@@ -31,7 +33,7 @@
     text-overflow: clip;
 }
 
-.rx-amd {
+.amd-gpus-rx-header {
     color: red;
     margin-right: auto;
     font-size: 18px;
@@ -55,13 +57,37 @@
     font: outline;
     color: darkblue;
 }
-.subtitle-amd {
+.intel-cpus {
+    font-size: 18px;
+    grid-auto-columns: auto;
+    text-align: center;
+    font-family: sans-serif;
+    font: outline;
+    color: darkblue;
+}
+.amd-gpus {
     font-size: 20px;
     grid-auto-columns: auto;
     text-align: center;
     font-family: sans-serif;
     font: outline;
     color: red;
+}
+.amd-cpus-headers {
+    color: red;
+    margin-right: auto;
+    font-size: 18px;
+    font: outline;
+    font-family: sans-serif;
+    text-align: center;
+}
+.amd-cpus {
+    color: red;
+    margin-right: auto;
+    font-size: 20px;
+    font: outline;
+    font-family: sans-serif;
+    text-align: center;
 }
 .c-links {
     font-size: 20px;
