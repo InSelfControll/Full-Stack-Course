@@ -1,4 +1,4 @@
-.h1-CPUs {
+.cpus {
     color: chocolate;
     text-align: center;
     font-size: 2rem;
@@ -6,14 +6,13 @@
     font: outline;
     margin-left: auto;
 }
-.h1-GPUS {
-    color: chartreuse;
+.gpus {
+    color: rgb(90, 145, 36);
     text-align: center;
     font-size: 2rem;
 }
 .body {
     background-position: 90%;
-    background-image: url(https://www.ocbase.com/user/pages/01.home/_features/CPU-Processor.png);
     background-size: cover;
     background-attachment: fixed;
     image-rendering: -webkit-optimize-contrast auto;

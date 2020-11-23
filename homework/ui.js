@@ -1,8 +1,9 @@
 "use strict";
 
-const elForm = document.querySelector(".form");
+console.log(location)
 
-elForm.addEventListener("submit", e => {
-  e.preventDefault();
-  console.log(elForm.name);
-})
+if (location.pathname.startsWith("/gpu")) {
+  console.log("Has GPU")
+}
+
+console.log("Doesn't have GPU")
