@@ -16,9 +16,17 @@
     <p> 1. GPUs</p>
     <p> 2. CPUs</p>
     <form class="form">
-        <input type="number" name="gpus" required placeholder="Number of GPUs">
-        <button type="submit">Submit</button>
+        <input urlChange() type="number" required placeholder="Option number">
+        <button type="submit" urlChange()>Submit</button>
     </form>
+    <script>
+        function urlChange() {
+            location.hash = "#gpu";
+            var x = "The anchor part is now: " + location.hash;
+            document.getElementById("gpu").innerHTML = x;
+        }
+    </script>
+
     <a href="index.html">
         <iconify-icon data-icon="clarity:home-solid"></iconify-icon>
     </a>
