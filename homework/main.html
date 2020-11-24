@@ -15,7 +15,7 @@
     <form class="form" id="options" action="index.html">
         <option id="gpu">1. GPU </option>
         <option id="cpu">2. CPU </option>
-        <input type="text" name="options" placeholder="options" required>
+        <input type="text" name="form" placeholder="options" required>
         <button type="submit">Submit</button>
     </form>
 
@@ -25,6 +25,17 @@
     <a href="contact.html">
         <iconify-icon data-icon="fa-envelope-o"></iconify-icon>
     </a>
+    <script>
+        $("form").submit(function (event) {
+            if ($("input").first().val() === "correct") {
+                $("span").text("Validated...").show();
+                return;
+            }
+
+            $("span").text("Not valid!").show().fadeOut(1000);
+            event.preventDefault();
+        });
+    </script>
 </body>
 
 </html>
