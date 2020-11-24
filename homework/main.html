@@ -12,11 +12,11 @@
 
 <body class="custom">
     <p>What do you want to read?</p>
-    <form class="form" id="options" action="index.html">
+    <form name="options" class="form" id="options" action="index.html">
         <option id="gpu">1. GPU </option>
         <option id="cpu">2. CPU </option>
         <input type="text" name="options" placeholder="form" required>
-        <button type="submit">Submit</button>
+        <button type="submit" onclick="readText(this.form)">Submit</button>
     </form>
 
     <a href="index.html">
@@ -36,6 +36,7 @@
             event.preventDefault();
         });
     </script>
+    <script src="form.js"></script>
 </body>
 
 </html>
