@@ -98,9 +98,7 @@
     font: outline;
     color:violet;
 }
-.c-links,
-.br,
-.custom {
+.c-links,.br,.custom {
     text-align: center;
     margin: 0em auto;
 }
@@ -108,13 +106,19 @@
     width: 49px; 
     height: 49px; 
 }
-.gpus,
-.cpus,
-.options {
+.gpus,.cpus,.options {
     text-align: center;
     font-size: 2rem;
     font-family: sans-serif;
     font: outline;
     margin-left: auto;
-
+}
+.excell {
+    margin: auto;
+    align-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8em;
+    border-radius: 15em;
+    border-color: aquamarine;
+    background-color: black;
 }
