@@ -16,7 +16,11 @@ tbody tr:nth-child(even) {
 }
 
 tbody tr {
-  background-image: url(https://financerewind.com/wp-content/uploads/2020/08/the-misfit-of-demon-king-academy-historys-strongest-demon-king-reincarnates-and-goes-to-school-with-his-descendants.jpg);
+  /*background-image: url(https://tekwirenetwork.files.wordpress.com/2020/09/demon-king-academy.jpg?w=650);*/
+  /*background-clip: inherit;*/
+  background-color: lawngreen;
+  /*background-repeat: no-repeat;*/
+
 }
 
 table {
@@ -24,7 +28,7 @@ table {
 }
 thead, tfoot {
   /*background: url(leopardskin.jpg);*/
-  color: white;
+  color:blue;
   text-shadow: 1px 1px 1px black;
 }
 
@@ -39,22 +43,3 @@ table {
   border: 3px solid rgb(0, 160, 209);
 }
 
-thead th:nth-child(1) {
-  width: 30%;
-}
-
-thead th:nth-child(2) {
-  width: 20%;
-}
-
-thead th:nth-child(3) {
-  width: 15%;
-}
-
-thead th:nth-child(4) {
-  width: 35%;
-}
-
-th, td {
-  padding: 20px;
-}
