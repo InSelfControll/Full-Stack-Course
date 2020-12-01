@@ -18,8 +18,11 @@ tbody tr:nth-child(even) {
 tbody tr {
   /*background-image: url(https://tekwirenetwork.files.wordpress.com/2020/09/demon-king-academy.jpg?w=650);*/
   /*background-clip: inherit;*/
-  background-color: lawngreen;
+  /*background-color: lawngreen;*/
   /*background-repeat: no-repeat;*/
+  background-image: url(https://d10xkldqejj5hr.cloudfront.net/titles/FDW/FDW_KEY_1200x450.jpg); 
+  background-repeat: inherit; 
+  background-size: 195px;
 
 }
 
@@ -62,7 +65,7 @@ thead th:nth-child(4) {
 th, td {
   padding: 20px;
 }
-.td1, .th1 {
+.s {
   background-image: url(https://d10xkldqejj5hr.cloudfront.net/titles/FDW/FDW_KEY_1200x450.jpg); 
   background-repeat: inherit; 
   background-size: 195px;
