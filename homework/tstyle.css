@@ -29,7 +29,7 @@ table {
 thead, tfoot {
   /*background: url(leopardskin.jpg);*/
   color:blue;
-  text-shadow: 1px 1px 1px black;
+  text-shadow: 1px 1px 1px blue;
 }
 
 thead th, tfoot th, tfoot td {
@@ -43,3 +43,27 @@ table {
   border: 3px solid rgb(0, 160, 209);
 }
 
+thead th:nth-child(1) {
+  width: 30%;
+}
+
+thead th:nth-child(2) {
+  width: 20%;
+}
+
+thead th:nth-child(3) {
+  width: 15%;
+}
+
+thead th:nth-child(4) {
+  width: 35%;
+}
+
+th, td {
+  padding: 20px;
+}
+.td1, .th1 {
+  background-image: url(https://d10xkldqejj5hr.cloudfront.net/titles/FDW/FDW_KEY_1200x450.jpg); 
+  background-repeat: inherit; 
+  background-size: 195px;
+}
