@@ -4,7 +4,7 @@ caption {
   font-style: italic;
   caption-side: bottom;
   color: rgb(255, 0, 0);
-  text-align: left;
+  text-align: right;
   letter-spacing: 1px;
 }
 tbody tr:nth-child(odd) {
@@ -45,7 +45,7 @@ table {
   table-layout: fixed;
   width: 100%;
   border-collapse: collapse;
-  border: 3px solid rgb(0, 160, 209);
+  border: 19rem solid rgb(0, 160, 209);
 }
 
 thead th:nth-child(1) {
@@ -66,4 +66,12 @@ thead th:nth-child(4) {
 
 th, td {
   padding: 20px;
+}
+.math {
+  background-color: red;
+  font-size: 10em;
+}
+.assembly {
+  background-color: lightseagreen;
+  font-size: 10em;
 }
