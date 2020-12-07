@@ -35,17 +35,19 @@ thead, tfoot {
   color:white;
   text-shadow: 1px 1px 1px white;
   text-align: center;
+  background-size: cover;
 }
 
 thead th, tfoot th, tfoot td {
-  background: linear-gradient(to bottom, rgba(243, 2, 2, 0.1), rgba(14, 44, 214, 0.5));
-  border: 3px solid rgb(14, 43, 209);
+  /*b8ackground: linear-gradient(to bottom, rgba(243, 2, 2, 0.1), rgba(14, 44, 214, 0.5));*/
+  border: 1px solid;
 }
 table {
-  table-layout: fixed;
+  table-layout: initial;
+  -o-table-baseline: inherit;
   width: 100%;
   border-collapse: collapse;
-  border: 19rem solid rgb(0, 160, 209);
+  border: 9px;
 }
 
 thead th:nth-child(1) {
