@@ -11,19 +11,18 @@ caption {
   text-align: right;
   letter-spacing: 1px;
 }
-tbody tr:nth-child(odd) {
+/*tbody tr:nth-child(odd) {
   background-color: lightskyblue;
-}
+}*/
 
-tbody tr:nth-child(even) {
+/*tbody tr:nth-child(even) {
   background-color: #6d636d;
-}
+}*/
 
 tbody tr {
   background-image: url(https://hbomax-images.warnermediacdn.com/images/GXvJ8jAbJfMLDGQEAAAEU/tile.jpeg?size=1280x720&format=jpeg&partner=hbomaxcom&productCode=hbomax&host=artist.api.cdn.hbo.com&w=480); 
   background-size: cover; 
   text-align: center;
-
 }
 
 table {
@@ -67,11 +66,23 @@ thead th:nth-child(4) {
 th, td {
   padding: 20px;
 }
-.math {
-  background-color: red;
-  font-size: 10em;
+.sql {
+  color:red;
+  font-size: 2em;
 }
 .assembly {
-  background-color: lightseagreen;
-  font-size: 10em;
+  color:blue;
+  font-size: 2em;
+}
+.fullstack {
+  color:yellow;
+  font-size: 2em;
+}
+.java {
+  color:black;
+  font-size: 2em;
+}
+.english {
+  color: darkviolet;
+  font-size: 2em;
 }
