@@ -7,6 +7,10 @@ caption {
   text-align: left;
   letter-spacing: 1px;
 }
+body {
+  background-image: url(https://i.redd.it/2nyeb15224p11.png);
+  background-size: cover;
+}
 tbody tr:nth-child(odd) {
   background-color: lightskyblue;
 }

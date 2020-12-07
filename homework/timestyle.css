@@ -1,3 +1,7 @@
+body {
+  background-image: url(https://photographylife.com/wp-content/uploads/2017/05/1310-copy.jpg);
+  background-size: cover;
+}
 caption {
   font-family: 'Rock Salt', cursive;
   padding: 20px;
