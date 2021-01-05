@@ -1,6 +1,6 @@
 document.write("<h1>Ex 10 </h1>");
 document.write("<table border='1' style='border-collapse:collapse;font-family:David;font-size:20pt>'");
-alert("how old are you ? ");
+//alert("how old are you ? ");
 var lines = prompt("Enter number of Lines");
 var lines = parseInt(tmp);
 //alert(lines);
