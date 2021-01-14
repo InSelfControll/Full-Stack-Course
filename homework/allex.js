@@ -1,10 +1,10 @@
 function DrawLink() {
-    document.write("Hey");
-    document.write(<a href="https://youtube.com/">Youtube</a>);
+    document.write('Hey' + '\t');
+    document.write("<a href='https://youtube.com/'>Youtube</a>");
 }
 DrawLink();
 
-/*function DrawImage(pic) {
+function DrawImage(pic) {
     document.write(<h1>H3ex</h1>);
     document.write("<image src='/'" + pic + " '.jpg' width = '360' hight='200' />");
 }
@@ -45,4 +45,4 @@ DrawRow();
 var pic = parseInt(prompt("Enter a photo number"));
 var Height = parseInt(prompt("Enter a photo Height"));
 var Width = parseInt(prompt("Enter a photo Width"));
-DrawImage4(pic, Height, Width); */
+DrawImage4(pic, Height, Width); 
