@@ -4,11 +4,11 @@ function DrawLink() {
 }
 DrawLink();
 
-function DrawImage(pic) {
+function DrawImage(pic){
     document.write(<h1>H3ex</h1>);
-    document.write("<image src='Images/" + pic +  ".jpg' width='360' hight='200' />");
+    document.write("<image src='Images/" + pic + ".jpg' widht='360 hight='200' />");
 }
-let p = parseInt(prompt("Enter a number of image"));
+let p = parseInt(prompt("Enter a number of images!"));
 
 DrawImage(p);
 //DrawImage(p - 2);
