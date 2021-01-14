@@ -1,23 +1,23 @@
 function DrawLink() {
-    document.write('Hey' + '\t');
+    document.write('Hey' + ' \t ');
     document.write("<a href='https://youtube.com/'>Youtube</a>");
 }
 DrawLink();
 
 function DrawImage(pic) {
     document.write(<h1>H3ex</h1>);
-    document.write("<image src='/'" + pic + " '.jpg' width = '360' hight='200' />");
+    document.write("<image src='Images/" + pic +  ".jpg' width='360' hight='200' />");
 }
-var p = parseInt(prompt("Enter a number of image"));
+let p = parseInt(prompt("Enter a number of image"));
 
 DrawImage(p);
-DrawImage(p - 2);
+//DrawImage(p - 2);
 
 function DrawImage3(pn) {
     document.write("RC3Exb");
-    document.write("<img src='/" + pn + ".jpg' width= '300' hight='200'");
+    document.write("<img src='Images/" + pn + ".jpg' width= '300' hight='200'/>");
 }
-DrawImage3();
+DrawImage3(pn);
 
 //DrawImage4 
 function DrawImage4(imgIndex, imgHeight, imgWidth) {
@@ -26,7 +26,7 @@ function DrawImage4(imgIndex, imgHeight, imgWidth) {
 
 // DrawLink6 זימון 
 function DrawLink6(linkIndex) {
-    document.write("<a href='../HtmlPage" + linkIndex + ".html'style=color:red;'>page number" + linkIndex + "</a></br>");
+    document.write("<a href='/" + linkIndex + ".html'style=color:red;'>page number" + linkIndex + "</a></br>");
 }
 
 function DrawRow() {
