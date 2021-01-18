@@ -3,7 +3,7 @@ const bot = new Discord.Client();
 bot.on('message', async message => {
     // console.log(message.content("Hey there!"));
     if ((message.content == 'hello') || (message.content == 'Hello')) {
-        await message.channel.send("hey there " + message.author.username );
+        await message.channel.send("hey there " + message.author.username + " \t" + "https://www.youtube.com/watch?v=u9Dg-g7t2l4");
     }
 })
 
